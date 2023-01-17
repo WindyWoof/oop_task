@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
+../oop2/include/oop2.h
+string
+-
+ostream
+-
+
 /code/oop2/src/oop2.cpp
 oop2.h
 /code/oop2/src/oop2.h
+string
+-
 

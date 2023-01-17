@@ -1,4 +1,6 @@
 #include "oop2.h"
+#include <string>
+using namespace std;
 
 void Upper_Case(string& str)
 {
