@@ -14,11 +14,9 @@ algorithm
 ostream
 -
 
-/code/main.cpp
-iostream
--
-string
--
+/code/tests.cpp
+gtest/gtest.h
+/code/gtest/gtest.h
 oop2.h
 /code/oop2.h
 

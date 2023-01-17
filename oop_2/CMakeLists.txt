@@ -14,4 +14,6 @@ include_directories(${OOP2_INCLUDE_DIR})
 add_executable(main main.cpp)
 target_link_libraries(main oop2)
 
+add_executable(tests tests.cpp)
+target_link_libraries(tests oop2 gtest gtest_main)
 

@@ -1,0 +1,1 @@
+/usr/local/bin/c++ CMakeFiles/tests.dir/tests.cpp.o -o tests  oop2/liboop2.a -lgtest -lgtest_main 
