@@ -14,13 +14,11 @@ algorithm
 ostream
 -
 
-/code/oop2/src/oop2.cpp
-oop2.h
-/code/oop2/src/oop2.h
-string
--
+/code/main.cpp
 iostream
 -
-algorithm
+string
 -
+oop2.h
+/code/oop2.h
 
