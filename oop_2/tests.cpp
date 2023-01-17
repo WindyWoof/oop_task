@@ -4,7 +4,9 @@
 
 TEST(HashtagTest, WordsInput)
 {
-    EXPECT_EQ("hello","#Hello");
-    EXPECT_EQ("               privet","#Privet");
-    EXPECT_EQ("   hello    ","#Hello")
+    EXPECT_EQ("hello world","#HelloWorld");
+    EXPECT_EQ("   hello world","#HelloWorld");
+    EXPECT_EQ("   hello world   ","#HelloWorld");
+    EXPECT_EQ("hello    world","#HelloWorld");
+    EXPECT_EQ("helloworld","#HelloWorld");
 }
