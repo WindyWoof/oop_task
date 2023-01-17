@@ -6,5 +6,5 @@ using namespace std;
 
 
 void Upper_Case(string& str);
-
+string stringToHashtag(string str);
 void Delete_Spaces(string& str);
