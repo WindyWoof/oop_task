@@ -1,20 +1,18 @@
 cmake_minimum_required(VERSION 3.18)
 
-project(oop2)
+project(oop4)
 
-set(OOP2_DIR ${CMAKE_CURRENT_SOURCE_DIR}/oop2)
-set(OOP2_INCLUDE_DIR ${OOP2_DIR}/include)
-message("OOP2_DIR = ${OOP2_DIR}")
-message("OOP2_INCLUDE_DIR = ${OOP2_INCLUDE_DIR}")
+set(OOP4_DIR ${CMAKE_CURRENT_SOURCE_DIR}/oop4)
+set(OOP4_INCLUDE_DIR ${OOP4_DIR}/include)
+message("OOP4_DIR = ${OOP4_DIR}")
+message("OOP4_INCLUDE_DIR = ${OOP4_INCLUDE_DIR}")
 
-add_subdirectory(oop2)
-add_subdirectory(googletest)
+add_subdirectory(oop4)
 
-include_directories(${OOP2_INCLUDE_DIR})
+include_directories(${OOP4_INCLUDE_DIR})
 
 add_executable(main main.cpp)
-target_link_libraries(main oop2)
+target_link_libraries(main oop4)
 
-add_executable(tests tests.cpp)
-target_link_libraries(tests oop2 gtest gtest_main)
+
 

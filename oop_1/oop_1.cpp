@@ -155,6 +155,6 @@ int main()
 		}
 		cout << endl;
 	}
-	//cout<<Multiply(B)<<endl;
-	//cout << Search_abs(B) << endl;
+	cout<<Multiply(B)<<endl;
+	cout << Search_abs(B) << endl;
 }

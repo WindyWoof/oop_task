@@ -1,3 +1,3 @@
-include_directories(${OOP2_INCLUDE_DIR})
+include_directories(${OOP4_INCLUDE_DIR})
 
-add_library(oop2 src/oop2.cpp)
+add_library(oop4 src/oop4.cpp)
